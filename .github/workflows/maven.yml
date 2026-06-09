@@ -14,6 +14,9 @@ on:
   pull_request:
     branches: [ "main" , "runTestsEdu"]
 
+permissions:
+  contents: write
+
 jobs:
   build:
 
